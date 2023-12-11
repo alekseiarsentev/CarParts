@@ -126,7 +126,7 @@ const MySwiper = () => {
       >
         <SwiperSlide>
           <a href='./geely'>
-            <img src='./src/images/geelytemplate.png' alt="Geely" style={imageStyle}></img>
+            <img src='./geelytemplate.png' alt="Geely" style={imageStyle}></img>
           </a>
           <div style={{
             position: 'absolute',
@@ -144,7 +144,7 @@ const MySwiper = () => {
         </SwiperSlide>
         <SwiperSlide>
           <a href='./haval'>
-            <img src='./src/images/havaltemplate.jpg' alt="Haval" style={imageStyle}></img>
+            <img src='./havaltemplate.jpg' alt="Haval" style={imageStyle}></img>
           </a>
           <div style={{
             position: 'absolute',
@@ -162,7 +162,7 @@ const MySwiper = () => {
         </SwiperSlide>
         <SwiperSlide>
           <a href='./chery'>
-            <img src='./src/images/cherytemplate.jpg' alt="Chery" style={imageStyle}></img>
+            <img src='./cherytemplate.jpg' alt="Chery" style={imageStyle}></img>
           </a>
           <div style={{
             position: 'absolute',
@@ -180,7 +180,7 @@ const MySwiper = () => {
         </SwiperSlide>
         <SwiperSlide>
           <a href='./jac'>
-            <img src='./src/images/jactemplate.jpg' alt="JAC" style={imageStyle}></img>
+            <img src='./jactemplate.jpg' alt="JAC" style={imageStyle}></img>
           </a>
           <div style={{
             position: 'absolute',
