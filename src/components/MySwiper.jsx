@@ -126,7 +126,7 @@ const MySwiper = () => {
       >
         <SwiperSlide>
           <a href='./geely'>
-            <img src='./src/images/geelytemplate.jpg' alt="Geely" style={imageStyle}></img>
+            <img src='./src/images/geelytemplate.png' alt="Geely" style={imageStyle}></img>
           </a>
           <div style={{
             position: 'absolute',
