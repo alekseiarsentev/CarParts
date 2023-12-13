@@ -6,9 +6,24 @@ import Slider from '../components/Slider.astro';
 <Layout title="Chinese Car Parts.">
 	<main>
 		<Slider />
-		<h1 class="text-2xl">Hi Im dynamic</h1>
-		<section>
+		<section aria-labelledby="cta" class="container grid gap-10 text-center mt-40 mb-40">
+			<div>
+			  <h1 id="cta" class="text-4xl font-bold tracking-wide">Интернет-магазин китайских автозапчастей</h1>
+			</div>
+			<p class="text-xl font-medium mx-auto">Мы, динамично развивающаяся компания. Наше основное направление, это поставка и реализация оригинальных автозапчастей и дополнительного оборудования для автомобилей китайского производства.</p>
 			
+		</section>
+		<section aria-labelledby="map" class="container flex flex-wrap md:space-x-16 space-y-12 md:space-y-0 justify-between items-center">
+			<img src="./womanHoldingPhone.jpg" alt="woman holding phone" width="400" class="grow md:flex-1" loading="lazy">
+			<div class="grid gap-4 text-center md:text-left grow md:flex-1">
+				<div class="relative">
+              
+              <h2 id="map1" class="text-xl font-bold tracking-wide py-2 flex items-center mt-10"><svg xmlns="http://www.w3.org/2000/svg" class="mr-6" width="48" height="48" fill="#000000" viewBox="0 0 256 256"><path d="M148,156a64,64,0,0,0,0-128H88A12,12,0,0,0,76,40v92H56a12,12,0,0,0,0,24H76v16H56a12,12,0,0,0,0,24H76v20a12,12,0,0,0,24,0V196h44a12,12,0,0,0,0-24H100V156ZM100,52h48a40,40,0,0,1,0,80H100Z"></path></svg>Конкурентные цены</h2>
+			  <h2 id="map2" class="text-xl font-bold tracking-wide py-2 flex items-center mt-10"><svg xmlns="http://www.w3.org/2000/svg" class="mr-6" width="48" height="48" fill="#000000" viewBox="0 0 256 256"><path d="M244,112a12,12,0,0,0-12,12v16H216v-8a20,20,0,0,0-20-20H185L150.83,77.86A19.86,19.86,0,0,0,136.69,72H124V56h16a12,12,0,0,0,0-24H84a12,12,0,0,0,0,24h16V72H60A20,20,0,0,0,40,92v48H24V124a12,12,0,0,0-24,0v56a12,12,0,0,0,24,0V164H40v12.69a19.86,19.86,0,0,0,5.86,14.14l35.31,35.31A19.86,19.86,0,0,0,95.31,232h41.38a19.86,19.86,0,0,0,14.14-5.86L185,192h11a20,20,0,0,0,20-20v-8h16v16a12,12,0,0,0,24,0V124A12,12,0,0,0,244,112Zm-52,56h-8.69a19.86,19.86,0,0,0-14.14,5.86L135,208H97L64,175V96h71l34.14,34.14A19.86,19.86,0,0,0,183.31,136H192Z"></path></svg>Большой ассортимент</h2>
+			  <h2 id="map3" class="text-xl font-bold tracking-wide py-2 flex items-center mt-10"><svg xmlns="http://www.w3.org/2000/svg" class="mr-6" width="48" height="48" fill="#000000" viewBox="0 0 256 256"><path d="M230.47,67.5a12,12,0,0,0-19.26-4.32L172.43,99l-12.68-2.72L157,83.57l35.79-38.78a12,12,0,0,0-4.32-19.26A76,76,0,0,0,89.24,123.8L31.17,174c-.22.19-.44.39-.64.6a36,36,0,0,0,50.91,50.91c.21-.2.41-.42.6-.64l50.16-58.07A76,76,0,0,0,230.47,67.5ZM160,148a52.1,52.1,0,0,1-25.13-6.46A12,12,0,0,0,120,144.2L64.21,208.75a12,12,0,0,1-17-17L111.8,136a12,12,0,0,0,2.65-14.89A52,52,0,0,1,160,44h.89L135.17,71.87a12,12,0,0,0-2.91,10.65l5.66,26.35a12,12,0,0,0,9.21,9.21l26.35,5.66a12,12,0,0,0,10.65-2.91L212,95.12c0,.3,0,.59,0,.89A52.06,52.06,0,0,1,160,148Z"></path></svg>Высокое качество запчастей</h2>
+			  <h2 id="map4" class="text-xl font-bold tracking-wide py-2 flex items-center mt-10"><svg xmlns="http://www.w3.org/2000/svg" class="mr-6" width="48" height="48" fill="#000000" viewBox="0 0 256 256"><path d="M240,180h-4V61.13l6.51-1.39a12,12,0,1,0-5-23.47l-224,48A12,12,0,0,0,16,108a12.21,12.21,0,0,0,2.53-.26l1.48-.32V180H16a12,12,0,0,0,0,24H240a12,12,0,0,0,0-24ZM44,102.27l168-36V180H192V120a12,12,0,0,0-12-12H76a12,12,0,0,0-12,12v60H44ZM168,144H88V132h80ZM88,168h80v12H88Z"></path></svg>Собственный склад в Омске</h2>
+            </div>
+			</div>
 		</section>
 	</main>
 </Layout>
